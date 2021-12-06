@@ -28,6 +28,6 @@ The notebook "RBPs 2nd batch 927/RBPs 2nd batch 927" analyses the differential p
 ![clusters](static/prot_volcano_ma_P146-M146.png) 
 
 ## Cluster Analysis
-The notebook "merge_datasets_def.ipynb" aggregates the results, removes the batch effect and clusters the MKT1, PBP1 and CFB2 proteins according to the differential protein abundance before and after TET induction.
+The notebook "merge_datasets_def.ipynb" aggregates the results, removes the batch effect and clusters the MKT1, PBP1 and CFB2 proteins according to the protein abundance after TET induction.
 
 ![clusters](static/clusters.png)    
