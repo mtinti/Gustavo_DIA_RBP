@@ -1,10 +1,11 @@
 ![title](static/wcar.png)
 
-# Proteome analysis of RNA Binding Protein KO
+# Proteome analysis of RNA Binding Protein KOs
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mtinti/Gustavo_DIA_RBP/HEAD)
 
-[Zenodo ph]
+[![DOI](https://zenodo.org/badge/433483273.svg)](https://zenodo.org/badge/latestdoi/433483273)
+
 
 ## Affiliation
     Wellcome Centre for Anti-Infectives Research
