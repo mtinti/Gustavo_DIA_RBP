@@ -16,7 +16,8 @@ var tour = new Tour({
     {
       element: "#aa1aa",
       title: "Gene Highlight",
-      content: "Hovering over the dots to highlight in both plots"
+      content: "Hovering over the dots to highlight in both scatter plots, \
+      in the table and to update the bar plot"
     },
   
     {
@@ -27,20 +28,22 @@ var tour = new Tour({
     },
 
 
-  {
-    element: "#plot2",
-    title: "Drag Selection",
-    content: "Dragging a selection box will \
-    activate the zoom. <br> The selected genes will appear in the table. \
-    <br>Double click to reset the zoom",
-  },
+    {
+      element: "#plot2",
+      title: "Drag Selection",
+      content: "Dragging a selection box will \
+      activate the zoom. Click somewhere in the plot area and without release move the mouse pointer to draw \
+      a rectangle <br> The selected genes inside the rectangle area will appear in the table. \
+      <br>Double click to reset the zoom",
+    },
+  
 
 
-  {
+    {
       element: "#table_wrapper",
       title: "Table Highlight",
       content: "Hovering on the table rows will highlight the genes \
-      on the plots"
+      in the scatter plots plots and update the bar plot"
   },
 
   {
@@ -54,6 +57,14 @@ var tour = new Tour({
     element: "#textAreaIDs",
     title: "Search Multiple IDs",
     content: "You can input several protein IDs at the same time to visualise in the table and plots"
+  },
+
+
+  {
+    element: "#prot_id",
+    title: "Protein bar plot",
+    content: "Hovering over the protein id will highlight the protein \
+    in the scatter plots and in the table"
   },
 
   {

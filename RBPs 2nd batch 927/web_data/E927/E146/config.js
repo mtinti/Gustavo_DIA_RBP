@@ -9,7 +9,7 @@ let FLIP_Y2=false;
 let PLOT_WIDTH=550;
 let PLOT_HEIGHT=400;
 
-let PROJECT_TITLE='MKT1';
+let PROJECT_TITLE='CFB2';
 
 let margin = 0.05;
 
