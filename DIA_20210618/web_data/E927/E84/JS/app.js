@@ -351,6 +351,7 @@ function scaterPlot(data, selection, in_width, in_height, unique_id, x_col, y_co
             d3.selectAll("circle[id*='" + selector + "']")
                 //.style("stroke", 'blue')
                 .style("opacity", 1)
+                style("fill", "red")
                 .attr("stroke-width", '5')
                 .attr("r", 8)
                 .raise();
@@ -400,6 +401,7 @@ function scaterPlot(data, selection, in_width, in_height, unique_id, x_col, y_co
             d3.selectAll("circle[id*='" + selector + "']")
                 //.style("stroke", '')
                 .attr("r", 4)
+                .style("fill", "#4292c6")
                 .style("opacity", 0.5);
                 //.attr("stroke-width", '');
             d3.selectAll("tr[id*='" + selector + "']")
