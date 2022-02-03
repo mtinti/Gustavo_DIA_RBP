@@ -351,6 +351,7 @@ function scaterPlot(data, selection, in_width, in_height, unique_id, x_col, y_co
             d3.selectAll("circle[id*='" + selector + "']")
                 //.style("stroke", 'blue')
                 .style("opacity", 1)
+                style("fill", "red")
                 .attr("stroke-width", '5')
                 .attr("r", 8)
                 .raise();
@@ -363,6 +364,11 @@ function scaterPlot(data, selection, in_width, in_height, unique_id, x_col, y_co
             //var gene_acc_int = gene_acc.slice(2, -2);
             //console.log('gene_acc_int',gene_acc_int);
             //$(".c3-title").html(box_plot_id_to_name[d['Gene_acc']] +' '+box_plot_id_to_desc[d['Gene_acc']]);
+
+
+            //console.log('box_plot_id_to_desc',box_plot_id_to_name);
+
+
             $('#prot_id').html(box_plot_id_to_name[d['Gene_acc']]);
             $('#prot_name').html(box_plot_id_to_desc[d['Gene_acc']]);
             //load box plot
@@ -400,6 +406,7 @@ function scaterPlot(data, selection, in_width, in_height, unique_id, x_col, y_co
             d3.selectAll("circle[id*='" + selector + "']")
                 //.style("stroke", '')
                 .attr("r", 4)
+                .style("fill", "#4292c6")
                 .style("opacity", 0.5);
                 //.attr("stroke-width", '');
             d3.selectAll("tr[id*='" + selector + "']")
